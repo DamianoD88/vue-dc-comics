@@ -47,19 +47,28 @@ header {
             font-size: 20px;
             font-weight: bold;
             font-family: "Greta Sans Condensed Bold","Greta Sans Bold",Arial,sans-serif;
-            font-size: 20px;
-            margin-bottom: 0;
+            font-size: 10px;
             margin-left: 20px;
             margin-right: 20px;
             padding-bottom: 50px;
-            padding-left: 0;
-            padding-right: 0;
-            padding-top: 0;
+
+            &:hover {
+                color: #0c7cec;
+                    border-bottom: 3px solid #0c7cec;
+                    transition: all 0.2s
+                }
             
             
             a {
                 text-decoration: none;
                 color: #282828;
+
+                &:hover {
+                color: #0c7cec;
+                    
+                }
+
+                
             }
         }
     }
