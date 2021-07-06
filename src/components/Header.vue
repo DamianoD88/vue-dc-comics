@@ -27,6 +27,18 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+header {
+    text-align: center;
+
+    ul {
+        list-style: none;
+        
+        li {
+            display: inline-block;
+        }
+    }
+}
 
 </style>
