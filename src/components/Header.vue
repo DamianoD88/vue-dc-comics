@@ -32,12 +32,35 @@ export default {
 header {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 
     ul {
         list-style: none;
+       
+        
+        
+        
+        
         
         li {
             display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: "Greta Sans Condensed Bold","Greta Sans Bold",Arial,sans-serif;
+            font-size: 20px;
+            margin-bottom: 0;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-bottom: 50px;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0;
+            
+            
+            a {
+                text-decoration: none;
+                color: #282828;
+            }
         }
     }
 }
