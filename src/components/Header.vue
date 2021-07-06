@@ -30,7 +30,8 @@ export default {
 <style lang="scss" scoped>
 
 header {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
 
     ul {
         list-style: none;
