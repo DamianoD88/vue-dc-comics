@@ -1,4 +1,5 @@
 <template>
+<!-- header superiore -->
   <header>
       <div class="row">
           <a class="logo" href="#">
@@ -19,10 +20,19 @@
           </ul>
       </nav>
       </div>
-      
-      <div class="header-down">
+
+      <!-- header centrale -->
+      <div class="header-cent">
           --> Content goes here
       </div>
+
+      <!-- header di chiusura -->
+
+      <div class="header-down">
+
+      </div>
+
+
     
   </header>
 </template>
@@ -36,6 +46,7 @@ export default {
 <style lang="scss" scoped>
 
 header {
+     font-family: "Greta Sans Condensed Bold","Greta Sans Bold",Arial,sans-serif;
 
     .row {
         display: flex;
@@ -59,7 +70,6 @@ header {
             display: inline-block;
             font-size: 20px;
             font-weight: bold;
-            font-family: "Greta Sans Condensed Bold","Greta Sans Bold",Arial,sans-serif;
             font-size: 10px;
             margin-left: 20px;
             margin-right: 20px;
@@ -85,14 +95,23 @@ header {
             }
         }
     }
-    .header-down{
+    .header-cent{
         padding-top: 40px;
         padding-left: 12%;
-        // margin: 20px, 150px;
         font-size: 25px;
         width: 100%;
         height: 100px;
         background-color: black;
+        color: white;
+    }
+
+    .header-down {
+        padding-top: 40px;
+        padding-left: 12%;
+        font-size: 10px;
+        width: 100%;
+        height: 120px;
+        background-color: #0282f9;
         color: white;
     }
 }
