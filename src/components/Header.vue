@@ -1,6 +1,7 @@
 <template>
   <header>
-      <a href="#">
+      <div class="row">
+          <a class="logo" href="#">
           <img src="../../vue-dc-comics-1/img/dc-logo.png" alt="">
       </a>
       <nav>
@@ -17,6 +18,11 @@
               <li><a href="#">SHOP</a></li>
           </ul>
       </nav>
+      </div>
+      
+      <div class="header-down">
+          --> Content goes here
+      </div>
     
   </header>
 </template>
@@ -30,11 +36,18 @@ export default {
 <style lang="scss" scoped>
 
 header {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    
 
     ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
         list-style: none;
        
         
@@ -53,7 +66,7 @@ header {
             padding-bottom: 50px;
 
             &:hover {
-                color: #0c7cec;
+                    color: #0c7cec;
                     border-bottom: 3px solid #0c7cec;
                     transition: all 0.2s
                 }
@@ -72,6 +85,17 @@ header {
             }
         }
     }
+    .header-down{
+        padding-top: 40px;
+        padding-left: 12%;
+        // margin: 20px, 150px;
+        font-size: 25px;
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color: white;
+    }
 }
+
 
 </style>
