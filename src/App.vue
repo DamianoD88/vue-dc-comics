@@ -6,7 +6,7 @@
       <!-- <Products/> -->
     </main>
 
-    <!-- <Footer/> -->
+    <Footer/>
 
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
@@ -29,6 +29,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import 'style/commons.scss';
 // #app {
 //   font-family: Avenir, Helvetica, Arial, sans-serif;
 //   -webkit-font-smoothing: antialiased;
